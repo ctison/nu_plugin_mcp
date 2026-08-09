@@ -10,6 +10,6 @@ use plugin::McpPlugin;
 
 /// Starts tracing and serves the Nushell plugin protocol.
 fn main() {
-    logging::initialize();
-    serve_plugin(&McpPlugin::default(), MsgPackSerializer);
+  logging::initialize();
+  serve_plugin(&McpPlugin::default(), MsgPackSerializer);
 }

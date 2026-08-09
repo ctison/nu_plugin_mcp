@@ -1,0 +1,7 @@
+{
+  "name": "nu_plugin_mcp",
+  "type": "module",
+  "scripts": {
+    "inspector": "bun x @modelcontextprotocol/inspector --tui"
+  }
+}
